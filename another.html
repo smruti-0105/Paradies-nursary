@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Nursery</title>
+    <link rel="stylesheet" href="another.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Paradise Nursery</div>
+        <button id="cartBtn" onclick="toggleCart()">View Cart (0 items)</button>
+    </header>
+
+    <main>
+        <div class="product-list" id="product-list">
+            <!-- Products will be dynamically loaded here -->
+        </div>
+    </main>
+
+    <div id="cart" class="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items" class="cart-items">
+            <!-- Cart items will be displayed here -->
+        </div>
+        <div id="cart-total">
+            <h3>Total: $0</h3>
+        </div>
+        <button id="checkoutBtn" onclick="checkout()">Proceed to Checkout</button>
+    </div>
+
+    <script src="another.js"></script>
+</body>
+</html>
